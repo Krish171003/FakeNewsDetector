@@ -7,9 +7,9 @@ This project is a full-stack Fake News Detector that verifies news content using
 ---
 
 ## 🔗 Live Demo (if deployed)
-Frontend: [https://your-frontend-url.com](https://your-frontend-url.com)  
-Backend (Node.js): [https://your-backend-api.com](https://your-backend-api.com)  
-ML API (Flask): [https://your-ml-api.com](https://your-ml-api.com)
+Frontend: [https://fake-news-detector-kappa.vercel.app/](https://fake-news-detector-kappa.vercel.app/)  
+Backend (Node.js): [https://fake-news-backend-n2gj.onrender.com](https://fake-news-backend-n2gj.onrender.com)  
+ML API (Flask): [https://ml-api-jf69.onrender.com](https://ml-api-jf69.onrender.com)
 
 ---
 
