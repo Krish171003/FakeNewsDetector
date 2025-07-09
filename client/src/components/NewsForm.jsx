@@ -11,7 +11,7 @@ const NewsForm = ({ onResult }) => {
 
     try {
       setLoading(true);
-      const res = await axios.post(import.meta.env.VITE_API_BASE_URL + "/api/check-news", { content });
+      const res = await axios.post(process.env.REACT_APP_API_BASE_URL + "/api/check-news", { content });
       onResult(res.data);
     } catch {
       onResult({ error: "Something went wrong. Try again." });
