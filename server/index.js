@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const PORT = process.env.PORT || 5000;
 
-const ML_API_URL = "http://127.0.0.1:5001/predict";
+const ML_API_URL = process.env.ML_MODEL_URL;
 const NEWS_API_KEY = process.env.NEWSDATA_API_KEY;
 const NEWS_API_URL = "https://newsdata.io/api/1/news";
 
