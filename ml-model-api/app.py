@@ -14,6 +14,10 @@ except Exception as e:
     model = None
     vectorizer = None
 
+@app.route("/", methods=["GET"])
+def health_check():
+    return "✅ ML API is alive!"
+
 @app.route("/predict", methods=["POST"])
 def predict():
     if not model or not vectorizer:

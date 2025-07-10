@@ -17,6 +17,11 @@ const ML_API_URL = process.env.ML_MODEL_URL;
 const NEWS_API_KEY = process.env.NEWSDATA_API_KEY;
 const NEWS_API_URL = "https://newsdata.io/api/1/news";
 
+app.get("/", (req, res) => {
+  res.send("✅ Backend server is alive!");
+});
+
+
 // Helper to check similarity
 function isRelevantMatch(userText, newsTitle) {
   const similarity = stringSimilarity.compareTwoStrings(userText.toLowerCase(), newsTitle.toLowerCase());
